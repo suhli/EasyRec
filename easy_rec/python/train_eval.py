@@ -140,7 +140,6 @@ if __name__ == '__main__':
       config_util.edit_config(pipeline_config, edit_config_json)
 
     process_neg_sampler_data_path(pipeline_config)
-
     if args.is_on_ds:
       ds_util.set_on_ds()
       set_tf_config_and_get_train_worker_num_on_ds()
