@@ -180,8 +180,7 @@ def _get_basic_types():
   dtypes = [
       bool, int, str, float,
       type(u''), np.float16, np.float32, np.float64, np.char, np.byte, np.uint8,
-      np.int8, np.int16, np.uint16, np.uint32, np.int32, np.uint64, np.int64,
-      np.bool, np.str
+      np.int8, np.int16, np.uint16, np.uint32, np.int32, np.uint64, np.int64
   ]
   if six.PY2:
     dtypes.append(long)  # noqa: F821

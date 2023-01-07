@@ -45,8 +45,8 @@ def _get_np_type(field_type):
   type_map = {
       DatasetConfig.INT32: np.int32,
       DatasetConfig.INT64: np.int64,
-      DatasetConfig.STRING: np.str,
-      DatasetConfig.BOOL: np.bool,
+      DatasetConfig.STRING: str,
+      DatasetConfig.BOOL: bool,
       DatasetConfig.FLOAT: np.float32,
       DatasetConfig.DOUBLE: np.double
   }
